@@ -15,38 +15,38 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\%40GitRepository\ICT Programming\WindowsProject1\WindowsProject1\stdafx.h">
+    <ClInclude Include="..\..\..\..\%40GitRepository\ICT Programming\labsheet09\labsheet09\stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\%40GitRepository\ICT Programming\WindowsProject1\WindowsProject1\targetver.h">
+    <ClInclude Include="..\..\..\..\%40GitRepository\ICT Programming\labsheet09\labsheet09\targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\%40GitRepository\ICT Programming\WindowsProject1\WindowsProject1\resource.h">
+    <ClInclude Include="..\..\..\..\%40GitRepository\ICT Programming\labsheet09\labsheet09\resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\%40GitRepository\ICT Programming\WindowsProject1\WindowsProject1\WindowsProject1.h">
+    <ClInclude Include="labsheet09.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\%40GitRepository\ICT Programming\WindowsProject1\WindowsProject1\stdafx.cpp">
+    <ClCompile Include="..\..\..\..\%40GitRepository\ICT Programming\labsheet09\labsheet09\stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\%40GitRepository\ICT Programming\WindowsProject1\WindowsProject1\WindowsProject1.cpp">
+    <ClCompile Include="labsheet09.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\..\..\..\%40GitRepository\ICT Programming\WindowsProject1\WindowsProject1\WindowsProject1.rc">
+    <Image Include="..\..\..\..\%40GitRepository\ICT Programming\labsheet09\labsheet09\small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="labsheet09.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="labsheet09.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="..\..\..\..\%40GitRepository\ICT Programming\WindowsProject1\WindowsProject1\small.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\%40GitRepository\ICT Programming\WindowsProject1\WindowsProject1\WindowsProject1.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
   </ItemGroup>
 </Project>

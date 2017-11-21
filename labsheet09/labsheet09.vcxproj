@@ -22,8 +22,9 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{99507583-E0AB-47C3-869E-EDA45CC4F827}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>WindowsProject1</RootNamespace>
+    <RootNamespace>Labsheet09</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>Labsheet09</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -143,26 +144,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\%40GitRepository\ICT Programming\WindowsProject1\WindowsProject1\resource.h" />
-    <ClInclude Include="..\..\..\..\%40GitRepository\ICT Programming\WindowsProject1\WindowsProject1\stdafx.h" />
-    <ClInclude Include="..\..\..\..\%40GitRepository\ICT Programming\WindowsProject1\WindowsProject1\targetver.h" />
-    <ClInclude Include="..\..\..\..\%40GitRepository\ICT Programming\WindowsProject1\WindowsProject1\WindowsProject1.h" />
+    <ClInclude Include="..\..\..\..\%40GitRepository\ICT Programming\labsheet09\labsheet09\resource.h" />
+    <ClInclude Include="..\..\..\..\%40GitRepository\ICT Programming\labsheet09\labsheet09\stdafx.h" />
+    <ClInclude Include="..\..\..\..\%40GitRepository\ICT Programming\labsheet09\labsheet09\targetver.h" />
+    <ClInclude Include="labsheet09.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\%40GitRepository\ICT Programming\WindowsProject1\WindowsProject1\stdafx.cpp">
+    <ClCompile Include="..\..\..\..\%40GitRepository\ICT Programming\labsheet09\labsheet09\stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\%40GitRepository\ICT Programming\WindowsProject1\WindowsProject1\WindowsProject1.cpp" />
+    <ClCompile Include="labsheet09.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\..\..\..\%40GitRepository\ICT Programming\WindowsProject1\WindowsProject1\WindowsProject1.rc" />
+    <ResourceCompile Include="labsheet09.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\..\%40GitRepository\ICT Programming\WindowsProject1\WindowsProject1\small.ico" />
-    <Image Include="..\..\..\..\%40GitRepository\ICT Programming\WindowsProject1\WindowsProject1\WindowsProject1.ico" />
+    <Image Include="..\..\..\..\%40GitRepository\ICT Programming\labsheet09\labsheet09\small.ico" />
+    <Image Include="labsheet09.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
